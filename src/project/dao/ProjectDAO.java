@@ -11,6 +11,7 @@ public class ProjectDAO {
 			e.printStackTrace();
 		}
 		
+		System.out.println("hi");
 
 	}
 }
