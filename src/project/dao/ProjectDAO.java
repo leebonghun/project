@@ -10,14 +10,14 @@ public class ProjectDAO {
 		PreparedStatement pstmt = null;
 
 		try {
+			Class.forName("Oracle.jdbc.OracleDriver");
 
-			Class.forName("oracle.jdbc.OracleDriver");
 			System.out.println("https://github.com/leebonghun/project.git");
 
-			Class.forName("oracle.jdbc.oracledriver");
 
- branch 'master' of https://github.com/leebonghun/project.git
 		} catch (ClassNotFoundException e) {
+
+		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			try {
@@ -26,17 +26,11 @@ public class ProjectDAO {
 				e2.printStackTrace();
 			}
 		}
-
-
 		System.out.println("안녕하세요");
 		System.out.println("Hello Java");
-
+		System.out.println("테스트 중 입니다.");
 	}
-	public void temp() {
-		System.out.println("안녕하세요~");
-		branch 'master' of https://github.com/leebonghun/project.git
-	}
-	
+			
 }
 
 

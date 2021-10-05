@@ -1,5 +1,6 @@
 package project.dao;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class ProjectMain {
@@ -22,6 +23,16 @@ public class ProjectMain {
 			System.out.println("선택 >>");
 			int menu = sc.nextInt();
 			
+			
+			switch (menu) {
+			case 1:
+					List<ProjectDTO> list = dao.getrows();
+					
+				break;
+
+			default:
+				break;
+			}
 			
 		}
 	}
