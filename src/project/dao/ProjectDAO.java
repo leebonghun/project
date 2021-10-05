@@ -7,11 +7,12 @@ public class ProjectDAO {
 	static {
 		try {
 			Class.forName("oracle.jdbc.oracledriver");
-		} catch (ClassNotFoundException e) {
+			
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
-		System.out.println("hi");
+
+		System.out.println("안녕하세요");
 
 	}
 }
