@@ -10,7 +10,12 @@ public class ProjectDAO {
 			
 		} catch (Exception e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				
+			} catch (Exception e2) {
+				e2.printStackTrace();
+			}
 		}
-		System.out.println("안녕하세요");
 	}
 }
