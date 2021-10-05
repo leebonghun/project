@@ -28,11 +28,7 @@ public class ProjectDAO {
 		}
 		System.out.println("안녕하세요");
 		System.out.println("Hello Java");
-
+		System.out.println("테스트 중 입니다.");
 	}
-
-	public void temp() {
-		System.out.println("안녕하세요~");
-	}
-	
+			
 }
