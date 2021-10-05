@@ -22,6 +22,7 @@ public class ProjectMain {
 			System.out.println("선택 >>");
 			int menu = sc.nextInt();
 			
+			
 		}
 	}
 
