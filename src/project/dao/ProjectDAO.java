@@ -4,13 +4,17 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 
 public class ProjectDAO {
-
+	
 	static {
 		Connection con = null;
 		PreparedStatement pstmt = null;
 
 		try {
 			Class.forName("Oracle.jdbc.OracleDriver");
+
+			System.out.println("https://github.com/leebonghun/project.git");
+
+
 		} catch (ClassNotFoundException e) {
 
 		} catch (Exception e) {
@@ -22,9 +26,13 @@ public class ProjectDAO {
 				e2.printStackTrace();
 			}
 		}
-
 		System.out.println("안녕하세요");
+		System.out.println("Hello Java");
 
 	}
 
+	public void temp() {
+		System.out.println("안녕하세요~");
+	}
+	
 }
